@@ -31,7 +31,8 @@ public class BarCodeReaderExample implements DataListener {
         BarCodeReaderExample example = new BarCodeReaderExample();
         //the jpos.xml profile name being used for this example. profile names
         //refer to the logicalName field under each entry.
-        String jposProfileName = "QS6000";
+        //String jposProfileName = "QS6000";
+        String jposProfileName = "DL-Magellan-1500i-USB-OEM";
         if (!example.connectScanner(jposProfileName)) {
             System.exit(1);
         }
